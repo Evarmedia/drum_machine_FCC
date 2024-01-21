@@ -1,6 +1,7 @@
 .container {
   text-align: center;
   margin: 50px;
+  border: 2px solid white;
 }
 
 .whole-drum {
@@ -16,7 +17,7 @@
   width: 100px;
   height: 100px;
   border: 2px solid #2f2f2f;
-  background-color: #3f3f3f;
+  background-color: #41003b;
   color: white;
   font-size: 20px;
   border-radius: 8px;
@@ -26,4 +27,5 @@
 
 .drum-pad:active {
   transform: translate(4px, 4px);
+  transform: scale(1.2);
 }
